@@ -103,7 +103,8 @@ while run:
                 player.dx = 5
         if event.type == pygame.KEYUP:
             player.dx = 0
-    #ниже нужно продумать как мы будем писать код котрый будет отвечать за экран победы или поражения
+                
+    # Если counter > 0, то уменьшаем его на 1
     if counter > 0: 
         counter -= 1
     
